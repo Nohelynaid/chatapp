@@ -1,0 +1,350 @@
+
+body {
+  height: 100%;
+  margin:0;
+  font-family: 'Rubik', sans-serif;
+  font-size: 8px;
+  height: 630px;
+  text-align: center;
+  background-image: url("../images/bg-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.container-fluid{
+  position:relative;
+  height: 100%;
+}
+
+.content-box{
+  position:absolute;
+  right: 8%;
+  top: 80px;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.phone-img{
+  position:absolute;
+  left: 21.5%;
+  bottom: 83px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.info-container{
+  
+  text-align: left;
+  position: absolute;
+  left: 45%;
+  bottom: 25%;
+  padding-right: 26%;
+
+}
+
+/*CONTAINER*/
+
+.text-overlay{
+  font-size: 11px;
+  width: 192px;
+  position: relative;
+  left: 31%;
+  top: 93px;
+
+}
+
+.container-1{
+  margin: 0;
+}
+
+.container-2{
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.5rem;
+  width: 424px;
+  height: 100px;
+  margin-left:300px;
+  position: relative;
+  bottom: 135px;
+  left:280px;
+}
+
+.messages-container {
+  border-bottom-left-radius: 8%;
+  border-bottom-right-radius: 10%;
+  background-color: hsl(270, 20%, 96%);
+  padding-left: 5px;
+  padding-top: 10px;
+  font-size: 6px;
+  width: 182px;
+  height:310px;
+  z-index: -2;
+}
+
+
+/*ICONS*/
+
+.icons-img{
+  height:1px;
+  color:White;
+  font-size: 8px;
+  position: relative;
+}
+
+.left-arrow{
+  right: 20%;
+  top:7px;
+}
+
+.ellipsis-icon{
+  left: 40%;
+  bottom: 45%;
+  opacity:0.8;
+
+}
+
+.circle-icon{
+  font-size: 12px;
+  opacity:0.5;
+  padding-right: 5px;
+  top:2px;
+  right: 1px;
+  bottom: 3px;
+}
+
+.circle-right{
+  height: 20px;
+  width: 20px;
+  left: 67px;
+  bottom: 23px;
+
+}
+
+/*PHONE SECTIONS*/
+
+
+/*TOP SECTION*/
+.user-header{
+  background: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%) );
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  height: 60px;
+  width: 185px;
+  z-index:-1;
+
+}
+
+
+.username{
+  padding-top: 28px;
+  padding-bottom: 3px;
+  margin-bottom: 0px;
+  padding-right: 15px;
+  font-size: 10px;
+  color: white;
+  opacity: 0.8;
+}
+
+.status{
+  font-size: 7px;
+  color:hsl(270, 20%, 96%);
+  opacity:0.3;
+  padding-right: 18px;
+
+
+}
+
+
+.user-img{
+  background-color: white;
+  height: 22px;
+  width: 22px;
+  border-radius: 100%;
+  padding: 1px;
+  position: absolute;
+  left:15%;
+  bottom:15%;
+}
+
+/*MESSAGES*/
+
+.text-box{
+ border-radius: 0.5rem;
+ margin-bottom: 3px;
+ padding: 5px;
+}
+
+.message-1{
+  background-color:hsl(276, 100%, 81%);
+  margin-right: 80px;
+  text-align: left;
+  color: hsl(276, 55%, 52%);
+
+}
+
+.dogs-container{
+  text-align: right;
+  padding-top: 8px;;
+  padding-right: 3px;
+}
+
+.dog-images{
+  height: 30px;
+  width: 30px;
+  border-radius: 0.5rem;
+  margin: 0 3px 5px;
+}
+
+.messages-2{
+  color:hsl(271, 15%, 43%);
+  background-color:white;
+   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+  margin-left: 78px;
+  margin-right: 5px;
+  padding-right: 3px;
+  text-align: left;
+}
+
+.short-text{
+  padding:5px;
+  margin-left: 110px;
+  text-align: center;
+}
+
+.message-3{
+  padding:5px;
+  width: 93px;
+}
+
+
+/*BOTTOM SECTION*/
+
+
+.price-row{
+  font-size: 7px;
+  border-radius: 0.5rem;
+  margin-bottom: 5px;
+  margin-left: 1px;
+  background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  text-align: left;
+  width: 130px;
+  height:28px;
+
+}
+
+.price-text{
+  margin:0;
+  padding: 6px 12px 10px 5px;
+  color:hsl(270, 20%, 96%);
+  opacity:0.8;
+  white-space: nowrap;
+}
+
+.price{
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-top: 8px;
+}
+
+.typing-box{
+  border-radius: 5rem;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0;
+  margin-right: 25px;
+  text-align: left;
+  width: 171px;
+  height: 25px;
+  background-color:white;
+  font-size: 7px;
+  color: hsl(206, 6%, 79%);
+  opacity: 0.5;
+  padding-top: 8px;
+  padding-left: 10px;
+
+}
+
+.text-container{
+  font-size: 14px;
+  color:hsl(206, 6%, 79%);
+  margin-top:15px;
+}
+
+@media (max-width: 1360px) and (max-width:868x){
+
+  .info-container{
+  
+    text-align: left;
+    position: absolute;
+    left: 45%;
+    bottom: 40%;
+    padding-right: 26%;
+  
+  }
+
+  .container-fluid{
+    position:relative;
+    height: 100%;
+  }
+  
+  .content-box{
+    position:absolute;
+    right: 8%;
+    top: 80px;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .phone-img{
+    position:absolute;
+    left: 21.5%;
+    bottom: 83px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+@media (max-width: 972px) {
+  .info-container{
+    text-align: center;
+    top:100%;
+    left: 22%;
+    bottom: 0;
+  }
+}
+
+@media (max-width: 375px) {
+
+  .container-fluid{
+    bottom: 15%;
+  }
+
+  .info-container{
+    text-align: center;
+    top:88%;
+    left:0;
+    bottom: 0;
+    padding: 0 13%;
+  }
+
+  .content-box{
+    right: 4%;
+    top: 85px;
+    }
+  
+  .messages-container{
+    width: 185px;
+  }
+
+}
+
+  
